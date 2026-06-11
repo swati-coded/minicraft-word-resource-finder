@@ -1,4 +1,4 @@
-<img width="640" height="320" alt="MINICRAFT Banner" src="https://github.com/user-attachments/assets/353ef507-4817-48d6-ab90-fe8f318d1c33" />
+<img width="640" height="320" alt="MINICRAFT Banner" src="gitbanner.png" />
 
 # MINICRAFT: Word Resource Finder
 
