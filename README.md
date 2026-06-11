@@ -7,20 +7,20 @@
 
 ## Features
 
-★ Words mimic as blocks. 
-★ Player mines the block using a tool.
-★ The blocks breaks into compnonents like resource, fragments, crystals.
-★ Based on the word analysis, rarity reveals.
+★ Words mimic as blocks. <br>
+★ Player mines the block using a tool.<br>
+★ The blocks breaks into compnonents like resource, fragments, crystals.<br>
+★ Based on the word analysis, rarity reveals.<br>
 <hr className="my-6 border-gray-700" />
 
 ## How this works
 
-✦ The player enters a word.
-✦ The length of the word (block) determines how hard it is to break. The lengthier the word, harder it is to break.
-✦ Fragments are consonants and crystals are vowels here. Consonants and vowels are analysed separately.
-✦ The rarity depends upon the uniqueness of the word. 
-✦ The unique factor depends on how many letters only appear once in the word. More of those letters will increase the rarity.
-✦ A mined resource report is presented at the end (basically a word analysis report), the resource is revealed.
+✦ The player enters a word.<br>
+✦ The length of the word (block) determines how hard it is to break. The lengthier the word, harder it is to break.<br>
+✦ Fragments are consonants and crystals are vowels here. Consonants and vowels are analysed separately.<br>
+✦ The rarity depends upon the uniqueness of the word. <br>
+✦ The unique factor depends on how many letters only appear once in the word. More of those letters will increase the rarity.<br>
+✦ A mined resource report is presented at the end (basically a word analysis report), the resource is revealed.<br>
 <hr className="my-6 border-gray-700" />
 
 ## Resource Tiers
@@ -48,12 +48,12 @@
 
 ## Concepts Used
 
-▪ Functions
-▪ Dictionaries
-▪ Loops
-▪ Conditional Statements
-▪ String Manipulation
-▪ Random Module
+▪ Functions <br>
+▪ Dictionaries<br>
+▪ Loops<br>
+▪ Conditional Statements<br>
+▪ String Manipulation<br>
+▪ Random Module<br>
 <hr className="my-6 border-gray-700" />
 
 ## Author's Purpose
