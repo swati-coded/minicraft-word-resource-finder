@@ -1,5 +1,5 @@
 import random
-
+#intro to the game
 print("[-_-] MINI-CRAFT WORD RESOURCE FINDER [-_-]")
 print("Welcome to Minicraft!")
 print("(It is not like the original game)")
@@ -18,15 +18,17 @@ print("\n")
 print("Use it to mine and unravel these mysterious blocks. You never know you may find something rare.")
 print("Happy Mining.")
 
+#contains lists differentiating the rarity of the resources like the original game
 common = ["DIRT", "SAND", "WOOD", "GRAVEL", "CLAY", "SNOW",]
 uncommon = ["IRON","COPPER", "REDSTONE", "NETHER QUARTZ"]
 rare = ["GOLD", "DIAMOND" , "EMERALD" , "OBSIDIAN"]
 
-
+#user enters a word which mimics like a block
 block = input("Enter a block to mine: ")
 
 print("Let's mine it..")
 
+#string len() function
 word_length = len(block)
 if word_length > 5:
     print("It seems to be a big one")
@@ -35,7 +37,10 @@ else:
 print("Now, we'll look at what you got.")
 print("\n")
 
+#str.lower() function to remove ambiguity of case sensitivity
 l_block = block.lower()
+
+#function block to count vowels
 def vowel_check():
     vowel_crystals = 0
     for i in l_block:
@@ -43,6 +48,7 @@ def vowel_check():
             vowel_crystals +=1
     return vowel_crystals
 
+#function block to count consonants
 def consonants_check():
     consonant_fragments= 0
     for j in l_block:
@@ -50,7 +56,7 @@ def consonants_check():
             consonant_fragments +=1
     return consonant_fragments
 
-
+#function code to count frequency of the alphabets
 def info_collect():
     frequency_info={}
     for u in l_block:
@@ -60,6 +66,7 @@ def info_collect():
             frequency_info[u] = 1
     return frequency_info
 
+#function block to find alphabets having only one occurrence
 def uniqueness():
     frequency_info = info_collect()
     unique = 0
@@ -69,6 +76,7 @@ def uniqueness():
 
     return unique
 
+#rarity assignment
 unique = uniqueness()
 if unique > 5:
         print("★ RARITY : RARE ★")
@@ -82,7 +90,7 @@ else:
         print("★ RARITY : COMMON ★")
         print("\n")
 
-
+#function block to generate resource based on analysis
 def resource_gen():
     unique  = uniqueness()
     if unique > 5:
@@ -97,6 +105,7 @@ def resource_gen():
 print("\n⛏ Mining Complete...")
 print("Analyzing Resources...\n")
 
+#word analysis report
 print("RESOURCE INFO ⛏")   
 print(" ◈━◈━◈━◈━◈━◈━◈ ")  
 print("\n")
