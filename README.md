@@ -61,7 +61,7 @@
 It had been a month since I created something in Python (due to DSA , C++) and wanted to take a simple project but, add a twist to it. I used to play Minecraft a few years ago, this was a good chance to convert a simple project into a game-based mini project inspired by a Minecraft. (Well, atleast a section of it.)
 
 I may add more features/changes to it later on. Till then enjoy!
-(if you like it, do give it a star ⛥)
+(if you like it, do give it a star ⛥)<br>
 ~ SWATI
 <hr className="my-6 border-gray-700" />
 
